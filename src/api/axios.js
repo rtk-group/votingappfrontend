@@ -1,8 +1,7 @@
 import axios from 'axios'
 
-// const API_BASE_URL = 'http://localhost:3000/'
-const API_BASE_URL = 'http://localhost:3000/'
-console.log('Using API base URL:', API_BASE_URL)
+const API_BASE_URL = import.meta.env.VITE_BACKEND_URL
+// console.log('Using API base URL:', API_BASE_URL)
 
 // Central Axios instance so auth + error handling stay consistent.
 const api = axios.create({
