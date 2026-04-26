@@ -71,7 +71,7 @@ export default function AppShell({ children }) {
                 to="/register"
                 className="btn-primary text-sm px-3 py-2"
               >
-                Register.
+                Register
               </Link>
             </div>
           )}

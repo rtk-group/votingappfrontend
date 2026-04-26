@@ -66,7 +66,7 @@ export default function Dashboard() {
           </div>
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
             <div>
-              <h1 className="text-3xl font-semibold leading-tight">Welcome{user?.name ? `, ${user.name}` : ''}</h1>
+              <h1 className="text-3xl font-semibold leading-tight">!Hello & Welcome{user?.name ? `, ${user.name}` : ''}</h1>
               <p className="muted text-sm mt-2">
                 Role: <span className="font-semibold capitalize text-cream">{user?.role || '—'}</span> · Voting:{' '}
                 <span className="font-semibold text-cream">{user?.isvoted ? 'Locked' : 'Open'}</span>
