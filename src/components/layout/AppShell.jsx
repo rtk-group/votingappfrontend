@@ -65,13 +65,13 @@ export default function AppShell({ children }) {
                 to="/login"
                 className="btn-ghost text-sm px-3 py-2"
               >
-                Login
+                Login.
               </Link>
               <Link
                 to="/register"
                 className="btn-primary text-sm px-3 py-2"
               >
-                Register
+                Register.
               </Link>
             </div>
           )}

@@ -2,8 +2,6 @@ import axios from 'axios'
 
 const API_BASE_URL = import.meta.env.VITE_BACKEND_URL
 
-console.log("welcome Rohit its working...")
-
 // Central Axios instance so auth + error handling stay consistent.
 const api = axios.create({
   baseURL: API_BASE_URL,
